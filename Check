@@ -1,0 +1,12 @@
+print("[ RoRaRe hub ] : Checking if game is supported...")
+
+local supportedGameId = 286090429
+
+if game.PlaceId == supportedGameId then
+    print("[ RoRaRe hub ] : Game is supported loading ✅")
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cookiedevlopper-sketch/RoRaReHubloading/refs/heads/main/CodeS"))()
+
+else
+    warn("[ RoRaRe hub ] : Game not supported ❌")
+end
